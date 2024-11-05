@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding: 0;
+  box-sizzing: border-box;
+}
+
+input {
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: bold;
+  background-color: rgba(64, 46, 122, 0.15);
+}
+
+button {
+  padding: 8px 16px;
+  border-width: 1px;
+  border-radius: 6px;
+  cursor: pointer;
+}
